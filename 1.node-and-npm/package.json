@@ -1,0 +1,21 @@
+{
+  "name": "webtooling",
+  "version": "1.0.0",
+  "description": "web tool automation for web development",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "postinstall" : "bower install",	
+    "build": "./node_modules/gulp/bin/gulp.js build"
+  },
+  "author": "",
+  "license": "ISC"
+}

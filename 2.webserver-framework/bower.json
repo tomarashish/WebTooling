@@ -1,0 +1,30 @@
+{
+  "name": "WebTooling",
+  "authors": [
+    "tomarashish <aashish.dyp@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "node",
+    "bower",
+    "gulp"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.3",
+    "font-awesome": "fontawesome#^4.7.0",
+    "lodash": "^4.17.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

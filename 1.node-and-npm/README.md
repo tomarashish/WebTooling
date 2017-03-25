@@ -13,6 +13,12 @@ npm install
 npm init
 ```
 
+### Install dev dependency 
+```
+npm install --save-dev gulp
+npm install --save-dev gulp-watch
+```
+
 ## Install frontend dependencies
 ### Install Bower globally if not already install
 ```

@@ -14,7 +14,8 @@
   "scripts": {
     "test": "karma start karma.conf.js",
     "postinstall" : "bower install",
-    "build": "./node_modules/gulp/bin/gulp.js build"
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"

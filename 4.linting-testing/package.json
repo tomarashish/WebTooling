@@ -1,0 +1,29 @@
+{
+  "name": "4.linting-testing",
+  "version": "1.0.0",
+  "description": "linting and testing module",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "postinstall" : "bower install"
+  },
+  "keywords": [
+    "jsLint",
+    "Karma",
+    "Jasmine"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "jasmine": "^2.5.3",
+    "jslint": "^0.10.3",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}

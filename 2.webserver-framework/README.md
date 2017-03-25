@@ -1,7 +1,7 @@
 ## Install Node.js and NPM
 
 ## In Production Mode
-### Install dependencies
+### Install dependencies using npm package.json
 ```
 npm install
 ```
@@ -13,6 +13,16 @@ node server.js
 
 ## In Development Mode
 
+### Install Node, NPM, Bower same as in first part
+### Configure npm init
+```
+npm init
+```
+### Install dev package
+```
+npm install --save-dev gulp
+npm install --save-dev gulp-watch 
+```
 ### Creating a Basic Express Server 
 #### Install Express.js 
 ```
